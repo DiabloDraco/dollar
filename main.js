@@ -13,7 +13,7 @@ elForm.addEventListener('submit' , function (evt) {
         Result =  (elInput * 10880)
         break;
         case 'sumusd':  
-        Result =  (elInput * 10950)
+        Result =  (elInput / 10950).toFixed(2)
         break
     }
     
