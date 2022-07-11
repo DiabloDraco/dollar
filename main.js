@@ -8,27 +8,12 @@ elForm.addEventListener('submit' , function (evt) {
     
     var elInput = document.querySelector('#input').value.trim();
     
-    // if (elSelect.value = "usd"){
-    //     Result =  (elInput * 10912.30)
-    // }
-    // else if(elSelect.value = "eur"){
-    //     Result =  (elInput * 11138.18)
-    // }
-    // else if(elSelect.value = "rub"){
-    //     Result =  (elInput * 172.46)
-    // }
-    
     switch(elSelect.value) {
-        case 'usd':  
+        case 'usdsum':  
         Result =  (elInput * 10880)
         break;
-        
-        case 'eur':
-        Result =  (elInput * 11138.18)
-        break
-        
-        case 'rub':
-        Result =  (elInput * 172.46)
+        case 'sumusd':  
+        Result =  (elInput * 10950)
         break
     }
     

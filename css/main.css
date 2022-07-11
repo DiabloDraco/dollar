@@ -4,10 +4,10 @@ body {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    background-image: url(./../images/money.jpg);
+    background-image: url(./../images/money.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body {
     max-width: 300px;
     text-align: center;
     font-size: 25px;
-    color: brown;
+    color: rgb(255, 0, 0);
 }
 
 #main__select {
