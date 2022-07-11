@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#input {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#output {
+    padding: 10px;
+}
