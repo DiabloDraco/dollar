@@ -20,7 +20,7 @@ elForm.addEventListener('submit' , function (evt) {
     
     switch(elSelect.value) {
         case 'usd':  
-        Result =  (elInput * 10912.30)
+        Result =  (elInput * 10880)
         break;
         
         case 'eur':
