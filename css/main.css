@@ -1,3 +1,7 @@
+html {
+    overflow-y: hidden;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,7 +13,7 @@ body {
     background-position: center;
     background-size: contain;
     height: 100vh;
-    overflow-y: hidden
+    overflow: hidden
 }
 
 #form {
@@ -20,6 +24,7 @@ body {
     text-align: center;
     font-size: 25px;
     color: rgb(3, 185, 209);
+    overflow-y: hidden;
 }
 
 #main__select {
