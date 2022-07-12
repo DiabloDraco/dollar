@@ -24,22 +24,28 @@ body {
 #main__select {
     width: 325px;
     height: 30px;
+    background-color: coral;
 }
 
 #input {
     padding: 10px;
     margin-right: 20px;
     width: 100%;
+    background-color: brown;
 }
 
 #output {
     padding: 10px;
     width: 100%;
+    background-color: aqua;
+    opacity: 1;
+    color: black;
 }
 
 .button {
     width: 325px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: greenyellow;
 }
 
