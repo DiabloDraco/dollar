@@ -25,6 +25,7 @@ body {
     font-size: 25px;
     color: rgb(3, 185, 209);
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #main__select {
